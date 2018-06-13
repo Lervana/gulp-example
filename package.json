@@ -1,0 +1,34 @@
+{
+  "name": "gulp-example",
+  "version": "1.0.0",
+  "description": "gulp example application",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/gulp run-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lervana/gulp-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lervana/gulp-example/issues"
+  },
+  "homepage": "https://github.com/Lervana/gulp-example#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-nodemon": "^2.2.1",
+    "lodash": "^4.17.10"
+  }
+}
